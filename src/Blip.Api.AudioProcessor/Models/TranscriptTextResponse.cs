@@ -7,6 +7,9 @@ namespace Blip.Api.AudioProcessor.Models
 {
     public class TranscriptTextResponse
     {
+        /// <summary>
+        /// Recognized text
+        /// </summary>
         public string Text { get; set; }
     }
 }

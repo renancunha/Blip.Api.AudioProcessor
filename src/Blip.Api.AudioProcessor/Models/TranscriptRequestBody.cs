@@ -7,6 +7,9 @@ namespace Blip.Api.AudioProcessor.Models
 {
     public class TranscriptRequestBody
     {
+        /// <summary>
+        /// Uri of the media link
+        /// </summary>
         public string Uri { get; set; }
     }
 }

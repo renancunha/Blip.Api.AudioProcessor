@@ -26,9 +26,9 @@ namespace Blip.Api.AudioProcessor.Controllers
 
         // POST api/transcript/audio-to-text
         /// <summary>
-        /// 
+        /// Transcript an audio file to text using Azure Cognitive Services
         /// </summary>
-        /// <param name="body"></param>
+        /// <param name="body">You should inform the uri to the media link that will be recognized</param>
         /// <returns></returns>
         [HttpPost("audio-to-text")]
         public async Task<TranscriptTextResponse> AudioToTextAsync([FromBody]TranscriptRequestBody body)
